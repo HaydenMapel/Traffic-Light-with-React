@@ -1,13 +1,25 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+#toppole {
+    width: 10px;
+    height: 50px
+}
+#lightcontainer {
+    width: 80px;
+}
+.light {
+    width: 60px;
+    height: 60px;
+}
+#redlight {
+    background: red;
+}
+#yellowlight {
+    background: yellow;
+}
+#greenlight {
+    background: green;
+}
+.selected {
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
